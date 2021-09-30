@@ -1,0 +1,23 @@
+[
+
+	{
+	
+		"type": "MOD_INFO",
+		"id": "heavy_self",
+		
+		"name": "Heavy Self",
+		"description": "Adds a supernatural ability to render oneself into living metal, increasing one's strength and resistance to most damage.",
+		
+		"authors": [ 
+			"Hyperseeker" 
+		],
+		
+		"category": "items",
+		
+		"dependencies": [ 
+			"dda" 
+		]
+		
+	}
+	
+]

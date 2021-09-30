@@ -1,0 +1,33 @@
+[ 
+	{ 
+		"type": "material",
+		"id": "heavy_self",
+		
+		"name": "Heavy Self",
+		
+		"density": 180,
+		"specific_heat_liquid": 0.79,
+		"specific_heat_solid": 0.52,
+		"latent_heat": 391,
+		
+		"bash_resist": 20,
+		"cut_resist": 80,
+		"bullet_resist": 80,
+		"acid_resist": 80,
+		"fire_resist": -20,
+		"elec_resist": -80,
+		"chip_resist": 1000,
+		
+		"repaired_with": "scrap",
+		
+		"dmg_adj": [ 
+			"marked", 
+			"dented", 
+			"smashed", 
+			"shattered" 
+		],
+		
+		"bash_dmg_verb": "dented",
+		"cut_dmg_verb": "scratched" 
+	} 
+]

@@ -1,0 +1,50 @@
+[ 
+	{
+		"type": "SPELL",
+		"id": "heavy_self_fatigue_spell",
+		
+		"name": { 
+			"str": "Heavy Self Fatigue Infliction" 
+		},
+		"description": "Adds fatigue intermittently while wearing Heavy Self.",
+		
+		"valid_targets": [ 
+			"self" 
+		],
+		"effect": "attack",
+		"effect_str": "heavy_self_fatigue_effect",
+		"shape": "cone",
+		"base_casting_time": 0,
+		"message": "HEAVY SELF FATIGUE FUCK YEAH!",
+		
+		"flags": [ 
+			"NO_PROJECTILE",
+			"SILENT",
+			"NO_LEGS",
+			"NO_HANDS" 
+		] 
+	},
+	
+	{
+		"type": "effect_type",
+		"id": "heavy_self_fatigue_effect",
+		
+		"name": [ 
+			"Heavy Self Fatigue" 
+		],
+		"desc": [ 
+			"You have grown fatigued from using Heavy Self." 
+		],
+		"rating": "bad",
+		
+		"base_mods": { 
+		  "fatigue_min": [ 1 ],
+		  "fatigue_max": [ 5 ],
+		  "fatigue_chance": [ 210 ] 
+		},
+		
+		"//flags": [
+			"EFFECT_INVISIBLE"
+		] 
+	} 
+]
